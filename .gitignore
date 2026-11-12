@@ -1,0 +1,16 @@
+*.csv
+env
+__pycache__
+.env
+# Ignore all .pkl files
+*.pkl
+*.pt
+*.ipynb
+app *.py
+app_*.py
+
+# Except these two production models
+!pipe_hgb.pkl
+!pipe_hgb_dl.pkl
+!feature engineering - dl.ipynb
+!feature engineering - ml - good.ipynb
